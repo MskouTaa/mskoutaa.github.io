@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Much Love</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="head">
+        <h1>MUCH LOVE</h1>
+        <p>Does your crush loves you ?</p>
+    </div>
+    <div class="container">
+        <div class="retry">
+            <button onclick="clearHh()">Retry with another names</button>
+        </div>
+        <div class="in">
+            <input id="name" type="text" placeholder="Your Name">
+            <p class="hide-n">Enter your name</p>
+            <img src="pics/giphy1.gif">
+            <input id="crush" type="text" placeholder="Your Crush Name">
+            <p class="hide-c">Enter your crush name</p>
+        </div>
+        <br>
+        <button id="hhh" onclick="validateform()">Calculate</button>
+        <img src="pics/share.png" class="share-img" onclick="hideHh()">
+        <div class="share"  id="hideHh" >
+            <p>share</p>
+            <ul>
+                <li><a href="#"><img src="pics/facebook.png"></a></li>
+                <li><a href="#"><img src="pics/instagram.png"></a></li>
+                <li><a href="#"><img src="pics/messenger.png"></a></li>
+                <li><a href="#"><img src="pics/whatsapp.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="footer">
+        <p>Made by <a href="#">MskouTaa</a></p>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
